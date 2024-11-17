@@ -1,0 +1,68 @@
+
+.top-menu {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.top-menu .logo a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-menu .menu {
+    float: left;
+}
+
+.top-menu .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu .menu ul li {
+    float: left;
+}
+
+.top-menu .menu ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.top-menu .menu ul li a:hover {
+    background-color: #575757;
+}
+
+.top-menu .search-bar {
+    float: right;
+    padding: 14px 20px;
+}
+
+.top-menu .search-bar input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.top-menu .search-bar button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 4px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.top-menu .search-bar button:hover {
+    background: #ccc;
+}
