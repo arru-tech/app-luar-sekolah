@@ -8,9 +8,10 @@
 </head>
 <body>
     <?php include './component/navbar.php'; ?>
-
-    <div class="content">
     
+    <div class="content">
+        
     </div>
+    <?php include './component/footer.php'; ?>
 </body>
 </html>

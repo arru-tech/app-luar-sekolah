@@ -98,3 +98,54 @@ body {
     background: #1ea181;
     transform: scale(1.05);
 }
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer div a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footer div a:hover {
+    color: rgb(210, 98, 98);
+    transition: color 0.1s ease;
+}
+
+.footer div h4:hover {
+    color: rgb(224, 120, 120);
+    transition: color 0.2s ease;
+}
+.footer div h4,
+.footer div p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Media Queries - in progress */
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 20%;
+        height: auto;
+    }
+
+    .footer div {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .footer div a {
+        justify-content: center;
+    }
+}
