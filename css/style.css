@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.top-menu {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-menu .logo img {
+    width: 100%;
+}
+
+.top-menu .logo {
+    width: 200px;
+}
+
+.top-menu .menu {
+    display: flex;
+}
+
+.top-menu .menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu .menu ul li {
+    margin-left: 20px;
+}
+
+.top-menu .menu ul li a {
+    color: #333;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.top-menu .menu ul li a:hover {
+    background-color: #26D4A8;
+    color: white;
+}
+
+.top-menu .search-bar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.top-menu .search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid #EFEFEF;
+    border-radius: 20px;
+    width: 75vh;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.top-menu .search-bar input[type="text"]:focus {
+    border-color: #26D4A8;
+    outline: none;
+    box-shadow: 0 0 5px rgba(38, 212, 168, 0.5);
+}
+
+.top-menu .search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #26D4A8;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.top-menu .search-bar button:hover {
+    background: #1ea181;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer div a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footer div a:hover {
+    color: rgb(210, 98, 98);
+    transition: color 0.1s ease;
+}
+
+.footer div h4:hover {
+    color: rgb(224, 120, 120);
+    transition: color 0.2s ease;
+}
+.footer div h4,
+.footer div p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Media Queries - in progress */
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 20%;
+        height: auto;
+    }
+
+    .footer div {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .footer div a {
+        justify-content: center;
+    }
+}
+
+
+/* hero-section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.hero-section-part {
+    width: 50%;
+}
+
+.hero-title p {
+    font-size: 3em;
+    line-height: 1.15;
+}
+
+.hero-text {
+    padding-top: 25px;
+    color: rgb(77, 77, 77);
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px; 
+}
+
+/* hero */
+
+.hero-button p {
+    border: 1px solid rgb(4, 124, 4);
+    background-color: #0EA781;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
