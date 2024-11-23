@@ -132,6 +132,69 @@ body {
     padding: 0;
 }
 
+/* hero-section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.hero-section-part {
+    display: flex;
+    flex-direction: row; /* positioning on the center of hero-section */
+    align-items: center; /* center the div */
+    width: 85%;
+}
+
+.hero-part-one, .hero-part-two {
+    flex: 1;
+}
+
+.hero-part-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-part-two {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-part-two img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-text-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #111827;
+    line-height: 0.75;
+}
+
+.hero-text-desc {
+    padding: 16px 0px 48px 0px;
+    font-size: 20px;
+    color: #6D7280;
+}
+
+.hero-text-button a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.hero-text-button a:hover {
+    transition: 0.3s ease;
+    background-color: rgb(58, 58, 58);
+}
+
+
 /* Media Queries - in progress */
 @media only screen and (max-width: 768px) {
     .footer {
@@ -151,51 +214,3 @@ body {
         justify-content: center;
     }
 }
-
-
-/* hero-section */
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80vh;
-}
-
-.hero-section-part {
-    width: 50%;
-}
-
-.hero-title p {
-    font-size: 3em;
-    line-height: 1.15;
-}
-
-.hero-text {
-    padding-top: 25px;
-    color: rgb(77, 77, 77);
-}
-
-.hero-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 0px; 
-}
-
-/* hero */
-
-.hero-button p {
-    border: 1px solid rgb(4, 124, 4);
-    background-color: #0EA781;
-    color: white;
-    border-radius: 15px;
-    padding: 10px 18px;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-
-
