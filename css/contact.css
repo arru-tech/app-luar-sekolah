@@ -1,0 +1,50 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.contact-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.contact-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #111827;
+}
+
+.contact-text {
+    font-size: 20px;
+    color: #6D7280;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.contact-button button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.contact-button button:hover {
+    transition: 0.3s ease;
+    background-color: rgb(58, 58, 58);
+}
+
+@media (max-width: 768px) {
+    .contact-title {
+        text-align: center;
+    }
+    .contact-text {
+        text-align: center;
+    }
+  }
