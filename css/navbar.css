@@ -1,0 +1,89 @@
+.top-menu {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-menu .logo img {
+    width: 100%;
+}
+
+.top-menu .logo {
+    width: 200px;
+}
+
+.top-menu .menu {
+    display: flex;
+}
+
+.top-menu .menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu .menu ul li {
+    margin-left: 20px;
+}
+
+.top-menu .menu ul li a {
+    color: #333;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.top-menu .menu ul li a:hover {
+    background-color: #26D4A8;
+    color: white;
+}
+
+.top-menu .search-bar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.top-menu .search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid #EFEFEF;
+    border-radius: 20px;
+    width: 75vh;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.top-menu .search-bar input[type="text"]:focus {
+    border-color: #26D4A8;
+    outline: none;
+    box-shadow: 0 0 5px rgba(38, 212, 168, 0.5);
+}
+
+.top-menu .search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #26D4A8;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.top-menu .search-bar button:hover {
+    background: #1ea181;
+    transform: scale(1.05);
+}

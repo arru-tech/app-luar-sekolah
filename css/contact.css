@@ -39,3 +39,12 @@
     transition: 0.3s ease;
     background-color: rgb(58, 58, 58);
 }
+
+@media (max-width: 768px) {
+    .contact-title {
+        text-align: center;
+    }
+    .contact-text {
+        text-align: center;
+    }
+  }

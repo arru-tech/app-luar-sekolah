@@ -1,0 +1,51 @@
+.alumni-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.alumni-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.alumni-row-1 {
+    text-align: center;
+}
+
+.alumni-row-title {
+    color: #111827;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.alumni-row-text {
+    color: #6D7280;
+    font-size: 20px;
+}
+
+.alumni-row-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    gap: 116px;
+}
+
+.alumni-card p {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #111827;
+}
+
+@media (max-width: 768px) {
+    .alumni-row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .alumni-row-1 {
+        padding-top: 20px;
+    }
+}

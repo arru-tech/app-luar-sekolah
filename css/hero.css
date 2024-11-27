@@ -1,0 +1,105 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.hero-section-part {
+    display: flex;
+    flex-direction: row; /* positioning on the center of hero-section */
+    align-items: center; /* center the div */
+    width: 85%;
+}
+
+.hero-part-one, .hero-part-two {
+    flex: 1;
+}
+
+.hero-part-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-part-two {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-part-two img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-text-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #111827;
+    line-height: 0.75;
+}
+
+.hero-text-desc {
+    padding: 16px 0px;
+    font-size: 20px;
+    color: #6D7280;
+}
+
+.hero-text-button a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.hero-text-button a:hover {
+    transition: 0.3s ease;
+    background-color: rgb(58, 58, 58);
+}
+
+.hero-text-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+    padding-top: 20px;
+}
+
+.element-title{
+    color: #111827;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.element-title p {
+    color: #111827;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: auto;
+        padding-top: 20px;
+    }
+    .hero-section-part {
+        flex-direction: column;
+    }
+
+    .hero-text-title {
+        text-align: center;
+    }
+
+    .hero-text-desc p {
+        text-align: justify;
+    }
+
+    .hero-part-two {
+        display: none;
+    }
+    .hero-text-button {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
