@@ -1,7 +1,7 @@
 .hero-section {
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 70vh;
 }
 
 .hero-section-part {
@@ -23,7 +23,8 @@
 
 .hero-part-two {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-part-two img {
@@ -40,12 +41,16 @@
 }
 
 .hero-text-desc {
-    padding: 16px 0px;
     font-size: 20px;
     color: #6D7280;
 }
 
-.hero-text-button a {
+.hero-text-button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.hero-text-button button {
     text-decoration: none;
     background-color: black;
     color: white;
@@ -54,7 +59,7 @@
     border-radius: 6px;
 }
 
-.hero-text-button a:hover {
+.hero-text-button button:hover {
     transition: 0.3s ease;
     background-color: rgb(58, 58, 58);
 }
@@ -64,7 +69,6 @@
     flex-direction: row;
     align-items: center;
     gap: 22px;
-    padding-top: 20px;
 }
 
 .element-title{

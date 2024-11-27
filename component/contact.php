@@ -7,7 +7,7 @@
             <p>Komunikasikan dulu dengan admin, bisa jadi solusi!</p>
         </div>
         <div class="contact-button">
-            <a href="">Klik untuk tanya lebih lanjut</a>
+            <button type="button" href="">Klik untuk tanya lebih lanjut</button>
         </div>
     </div>
 </section>

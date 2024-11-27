@@ -2,8 +2,8 @@
     <div class="hero-section-part">
         <div class="hero-part-one">
             <div class="hero-text-title">
-                <p>Komunitas Magang Luar</p><br>
-                <p>Sekolah</p><br>
+                <p>Komunitas Magang</p><br>
+                <p>LuarSekolah</p><br>
             </div>
             <div class="hero-text-desc">
                 <p>
@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="hero-text-button">
-                <a href="">Gabung Komunitas</a>
+                <button type="button" href="">Gabung Komunitas</button>
             </div>
             <div class="hero-text-element">
                 <div class="element">
