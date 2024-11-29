@@ -1,89 +1,132 @@
-.top-menu {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar *{
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.navbar i {
+    font-family:'FontAwesome'!important;
+    color: #4B5563;
+    transition: color 0.3s ease;
+    }
+
+
+    .navbar i:active {
+        font-family:'FontAwesome'!important;
+        color: #111827;
+        }
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    background-color: white;
+    padding: 10px 112px; /* Increased padding for left and right */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.top-menu .logo img {
-    width: 100%;
+.navbar .logo img {
+    height: 40px;
 }
-
-.top-menu .logo {
-    width: 200px;
-}
-
-.top-menu .menu {
+.navbar .menu {
     display: flex;
+    align-items: center;
 }
-
-.top-menu .menu ul {
+.navbar .menu ul {
+    list-style: none;
     display: flex;
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
-.top-menu .menu ul li {
-    margin-left: 20px;
+.navbar .menu ul li {
+    margin: 0 15px;
+    position: relative;
 }
 
-.top-menu .menu ul li a {
-    color: #333;
-    text-align: center;
-    padding: 14px 20px;
+.navbar .menu ul li a {
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    transition: background-color 0.3s, color 0.3s;
-    border-radius: 5px;
+    color: #4B5563;
+    transition: color 0.3s ease;
 }
 
-.top-menu .menu ul li a:hover {
-    background-color: #26D4A8;
-    color: white;
+.navbar .menu ul li a:hover,
+.navbar .menu ul li:hover > a {
+    color: #111827;
+}
+.navbar .menu ul li a:hover i,
+.navbar .menu ul li:hover > a i {
+    color: #111827;
 }
 
-.top-menu .search-bar {
-    display: flex;
-    align-items: center;
-    padding: 5px;
+.navbar .menu ul li a:hover {
+    color: #111827;
 }
-
-.top-menu .search-bar input[type="text"] {
-    padding: 10px;
-    font-size: 17px;
-    border: 2px solid #EFEFEF;
-    border-radius: 20px;
-    width: 75vh;
-    transition: border-color 0.3s, box-shadow 0.3s;
+.navbar .menu ul li a.active {
+    color: #111827;
 }
-
-.top-menu .search-bar input[type="text"]:focus {
-    border-color: #26D4A8;
-    outline: none;
-    box-shadow: 0 0 5px rgba(38, 212, 168, 0.5);
+.navbar .menu ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: all 0.3s ease;
 }
-
-.top-menu .search-bar button {
+.navbar .menu ul li:hover .dropdown {
+    display: block;
+}
+.navbar .menu ul li .dropdown a {
+    display: block;
     padding: 10px 20px;
-    margin-left: 10px;
-    background: #26D4A8;
+    white-space: nowrap;
+}
+.navbar .get-started {
+    background-color: #111827;
     color: white;
-    border-radius: 20px;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
 }
 
-.top-menu .search-bar button:hover {
-    background: #1ea181;
-    transform: scale(1.05);
+.navbar .get-started:hover {
+    background-color: #243252;
+    color: lightgrey;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.navbar .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.navbar .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+}
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .menu ul li {
+        margin: 10px 0;
+    }
+    .navbar .hamburger {
+        display: flex;
+    }
+    .navbar .menu.active {
+        display: flex;
+    }
 }
