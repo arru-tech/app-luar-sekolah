@@ -3,12 +3,13 @@
     
 <nav class="navbar">
     <div class="logo">
-        <img src="./img/LS-logo-2nd-master.png" alt="Logo">
+        <a href="#">
+        <img src="./img/LS-logo-master.png" alt="Logo">
+        </a>
     </div>
     <div class="menu">
         <ul>
             <li><a href="#" class="nav-link home">Home</a></li>
-            <li><a href="#" class="nav-link testimoni">Testimoni</a></li>
             <li><a href="#" class="nav-link komunitas">Komunitas</a></li>
             <li>
                     <a href="#" class="nav-link program">Program <i class="fa-solid fa-angle-down fa-sm" style="vertical-align: middle; margin-left: 5px;"></i></a>
@@ -21,7 +22,12 @@
             </li>
         </ul>
     </div>
-    <a href="#" class="get-started">Get Started</a>
+    
+    <div class="buttons">
+        <a href="#" class="masuk">Masuk</a>
+        <a href="#" class="daftar-btn">Daftar</a>
+    </div>
+    
     <div class="hamburger" onclick="toggleMenu()">
         <div></div>
         <div></div>
@@ -35,6 +41,6 @@
     }
 
     // Set link aktif
-    document.querySelector('.nav-link.home').classList.add('active');
+    document.querySelector('.nav-link.komunitas').classList.add('active');
 </script>
 
