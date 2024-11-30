@@ -34,6 +34,7 @@
     align-items: center;
     justify-content: center;
     padding: 0px 16px;
+    transition: all 0.3s ease;
 }
 
 .whatsapp-container .text{
@@ -49,10 +50,12 @@
     transition: all 0.3s ease;
 }
 
+.whatsapp-container:hover{
+    transform: scale(1.05);
+}
+
 .whatsapp-container img:hover{
-    width: 65px; /* Adjust this value as needed */
-    height: 65px; /* Adjust this value as needed */
-    margin-top: 0px;
+    transform: scale(1.1);
     filter: drop-shadow(4px 4px 50px rgb(150, 253, 188));
 }
 
