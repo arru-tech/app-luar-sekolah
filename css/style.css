@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Inter', Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: radial-gradient(500px at top left, rgba(14, 167, 129, 0.178), transparent), #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
