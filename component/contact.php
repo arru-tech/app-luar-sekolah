@@ -10,4 +10,15 @@
             <button type="button" href="">Klik untuk tanya lebih lanjut</button>
         </div>
     </div>
+
+    <div class="whatsapp-container">
+        <div class="text">
+            <p>Hi, kami siap membantu jika Anda mengalami kendala!</p>
+        </div>
+        <div class="whatsapp-logo">
+            <a href="">
+                <img src="./img/whatsapp-logo.png" alt="Whatsapp">
+            </a>
+        </div>
+    </div>
 </section>
