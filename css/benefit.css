@@ -1,0 +1,154 @@
+.container {
+    margin: 100px auto auto auto;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    /* background-color: rgb(30, 255, 0); */
+
+  }
+  
+  .content {
+    display: grid;
+    margin-bottom: 40px;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+   
+  }
+
+  .community {
+    grid-row: 1fr;
+    grid-column: 1fr;
+    padding: 50px;
+    height: 50%;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .benefits {
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    grid-row: 1fr;
+    grid-column: 2fr;
+    width: 86%;
+    padding: 50px;
+    height: 50%;
+
+  }
+  
+  .benefits li {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  
+  .benefits li::before {
+    margin-right: 10px;
+    color: #007bff;
+  }
+
+  .cek {
+    width: 5%;
+    height: 5%;
+    padding-right: 20px;
+  }
+
+  .learn-more {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+    float: absolute;
+  }
+  
+  .learn-more span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .images {
+    display: flex;
+    width: 97%;
+    height: 58%;
+    padding: 0px 20px;
+    align-self: stretch;
+    grid-row: 2fr;
+    grid-column: 1/ span 2;
+    align-items: center;
+    justify-content: center; /* Menjaga posisi gambar di tengah */
+    gap: 50px;
+    margin-top: 20px; /* Menambahkan jarak dari elemen sebelumnya */
+    /* background-color: rgb(106, 0, 255); */
+  }
+  
+  .image-box-1 {
+    width: 251px;
+    height: 195px;
+    transform: rotate(-7.713deg);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box-1::before {
+    content: "🖼";
+    font-size: 2rem;
+    color: #aaa;
+  }
+  .image-box-2 {
+    width: 251px;
+    height: 191px;
+    transform: rotate(11.747deg);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box-2::before {
+    content: "🖼";
+    font-size: 2rem;
+    color: #aaa;
+  }
+  .image-box-3 {
+    width: 251px;
+    height: 191px;
+    transform: rotate(-6.416deg);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box-3::before {
+    content: "🖼";
+    font-size: 2rem;
+    color: #aaa;
+  }
+  .image-box-4 {
+    width: 251px;
+    height: 191px;
+    transform: rotate(15.44deg);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box-4::before {
+    content: "🖼";
+    font-size: 2rem;
+    color: #aaa;
+  }
