@@ -21,13 +21,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
     padding: 10px 112px; /* Increased padding for left and right */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .navbar .logo img {
-    height: 40px;
+    height: 60px;
 }
+
 .navbar .menu {
     display: flex;
     align-items: center;
@@ -51,18 +50,18 @@
 
 .navbar .menu ul li a:hover,
 .navbar .menu ul li:hover > a {
-    color: #111827;
+    color: #0EA781;
 }
 .navbar .menu ul li a:hover i,
 .navbar .menu ul li:hover > a i {
-    color: #111827;
+    color: #0EA781;
 }
 
 .navbar .menu ul li a:hover {
-    color: #111827;
+    color: #0EA781;
 }
 .navbar .menu ul li a.active {
-    color: #111827;
+    color: #0EA781;
 }
 .navbar .menu ul li .dropdown {
     display: none;
@@ -82,21 +81,38 @@
     padding: 10px 20px;
     white-space: nowrap;
 }
-.navbar .get-started {
-    background-color: #111827;
+
+.navbar .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    gap: 40px;
+}
+.navbar .daftar-btn {
+    background-color: #FFCC00;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 10px 25px;
+}
+
+.navbar .masuk{
+    text-decoration: none;
+    color: #FFCC00;
     transition: all 0.3s ease;
 }
 
-.navbar .get-started:hover {
-    background-color: #243252;
-    color: lightgrey;
-    padding: 10px 20px;
+.navbar .masuk:hover {
+    color: #caa201;;
+}
+
+.navbar .daftar-btn:hover {
+    background-color: #caa201;
+    color: rgb(223, 223, 223);
     text-decoration: none;
-    border-radius: 6px;
 }
 
 .navbar .hamburger {
