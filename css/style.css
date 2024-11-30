@@ -8,7 +8,33 @@
 
 body {
     font-family: 'Inter', Arial, sans-serif;
-    background: radial-gradient(500px at top left, rgba(14, 167, 129, 0.178), transparent), #f4f4f4;
+    background-image: linear-gradient(
+        315deg,
+        hsl(164deg 100% 96%) 0%,
+        hsl(164deg 100% 97%) 5%,
+        hsl(164deg 100% 97%) 9%,
+        hsl(164deg 100% 98%) 13%,
+        hsl(164deg 100% 98%) 18%,
+        hsl(164deg 100% 99%) 22%,
+        hsl(164deg 100% 99%) 27%,
+        hsl(164deg 100% 100%) 31%,
+        hsl(0deg 0% 100%) 35%,
+        hsl(0deg 0% 100%) 40%,
+        hsl(0deg 0% 100%) 44%,
+        hsl(0deg 0% 100%) 48%,
+        hsl(0deg 0% 100%) 53%,
+        hsl(0deg 0% 100%) 57%,
+        hsl(0deg 0% 100%) 61%,
+        hsl(0deg 0% 100%) 66%,
+        hsl(164deg 100% 100%) 70%,
+        hsl(164deg 100% 99%) 74%,
+        hsl(164deg 100% 99%) 78%,
+        hsl(164deg 100% 98%) 83%,
+        hsl(164deg 100% 98%) 87%,
+        hsl(164deg 100% 97%) 91%,
+        hsl(164deg 100% 97%) 96%,
+        hsl(164deg 100% 96%) 100%
+      );
     color: #333;
     line-height: 1.6;
 }
