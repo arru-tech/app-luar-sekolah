@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/benefit.css">
     <link rel="stylesheet" href="./css/alumni.css">
+    <link rel="stylesheet" href="./css/activity.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
@@ -17,6 +18,7 @@
     <?php include './component/hero.php'; ?>
     <?php include './component/benefit.php'; ?>
     <?php include './component/alumni.php'; ?>
+    <?php include './component/activity.php'; ?>
     <?php include './component/contact.php'; ?>
     <?php include './component/footer.php'; ?>
 </body>
