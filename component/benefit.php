@@ -24,11 +24,20 @@
             </div>
 
             <div class="images">
-                <div class="image-box-1"></div>
-                <div class="image-box-2"></div>
-                <div class="image-box-3"></div>
-                <div class="image-box-4"></div>
+                <div class="image-box-1">
+                    <img src="img/hero-file.png" alt="Gambar 1" />
+                </div>
+                <div class="image-box-2">
+                    <img src="img/hero-file.png" alt="Gambar 2" />
+                </div>
+                <div class="image-box-3">
+                    <img src="img/hero-file.png" alt="Gambar 3" />
+                </div>
+                <div class="image-box-4">
+                    <img src="img/hero-file.png" alt="Gambar 4" />
+                </div>
             </div>
+
         </div>
     </div>
 </body>
