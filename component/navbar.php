@@ -15,9 +15,9 @@
                     <a href="#" class="nav-link program">Program <i class="fa-solid fa-angle-down fa-sm" style="vertical-align: middle; margin-left: 5px;"></i></a>
             
                 <div class="dropdown">
-                    <a href="#">Program 1</a>
-                    <a href="#">Program 2</a>
-                    <a href="#">Program 3</a>
+                    <a href="https://luarsekolah.com/prakerja">Prakerja</a>
+                    <a href="https://belajarbekerja.com/">Belajar Bekerja</a>
+                    <a href="https://luarsekolah.com/indonesia-skills-week">Indonesia Skills Week</a>
                 </div>
             </li>
         </ul>
