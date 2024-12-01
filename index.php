@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/activity.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/class.css">
 </head>
 <body>
     <?php include './component/navbar.php'; ?>
@@ -21,5 +22,6 @@
     <?php include './component/activity.php'; ?>
     <?php include './component/contact.php'; ?>
     <?php include './component/footer.php'; ?>
+    <?php include './component/class.php'; ?>
 </body>
 </html>
