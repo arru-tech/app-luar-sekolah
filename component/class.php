@@ -1,7 +1,7 @@
 <div class="header">
         <h1>Mari bergabung bersama komunitas luar sekolah</h1>
         <p>Jadilah Bagian dari Perubahan, Berkontribusi dalam Pengembangan Pendidikan dan Kegiatan Komunitas</p>
-    </div>
+</div>
 <div class="container">
     
     <div class="content">
