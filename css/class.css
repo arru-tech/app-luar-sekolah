@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #000000;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c0ffef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content .left img {
+    width: 250px;
+    margin: 10px;
+}
+
+.content .right {
+    flex: 2;
+    padding: 20px;
+}
+
+.content .right h2 {
+    color: #0EA781;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.content .right p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.content .right .info {
+    margin: 20px 0;
+}
+
+.content .right .info h3 {
+    color: #000000;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.content .right .info p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.content .right .info hr {
+    border: 0;
+    border-top: 1px solid #0EA781;
+    margin: 10px 0;
+}
+
+.content .right .button {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content .right .button a {
+    background-color: #ffc107;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c0ffef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content2 .right2 {
+    flex: 2;
+    padding: 20px;
+}
+
+.content2 .right2 h2 {
+    color: #0EA781;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.content2 .right2 p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.content2 .right2 .info2 {
+    margin: 20px 0;
+}
+
+.content2 .right2 .info2 h3 {
+    color: #000000;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.content2 .right2 .info2 p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.content2 .right2 .info2 hr {
+    border: 0;
+    border-top: 1px solid #0EA781;
+    margin: 10px 0;
+}
+
+.content2 .right2 .button2 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content2 .right2 .button2 a {
+    background-color: #ffc107;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content2 .left2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content2 .left2 img {
+    width: 250px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content .left,
+    .content .right {
+        flex: 1 1 100%;
+    }
+}
