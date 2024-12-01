@@ -3,7 +3,6 @@
         <p>Jadilah Bagian dari Perubahan, Berkontribusi dalam Pengembangan Pendidikan dan Kegiatan Komunitas</p>
 </div>
 <div class="container">
-    
     <div class="content">
         <div class="left">
             <img src="../img/Group_94.png"/>
