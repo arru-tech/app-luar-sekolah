@@ -1,30 +1,63 @@
-.header {
-    text-align: center;
-    padding: 10px;
-    margin-top: 50px;
-    /* margin-bottom: 20px; */
-}
-
-.header h1 {
-    text-align: center;
-    font-size: 2em;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    color: #000000;
-}
-
-.header p {
-    font-size: 1.2em;
-    color: #666;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
 }
 
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
     padding: 20px;
-    margin-bottom: -50px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border: 1px solid #00b894;
+    border-radius: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #333;
+    background-color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.tab.active {
+    background-color: #00b894;
+    color: white;
 }
 
 .content {
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #c0ffef;
+    text-align: left;
+}
+
+.content.active {
+    display: block;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content1 {
     display: flex;
     flex-wrap: wrap;
     background-color: #c0ffef;
@@ -32,7 +65,7 @@
     border-radius: 10px;
 }
 
-.content .left {
+.content1 .left1 {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -40,54 +73,54 @@
     flex-wrap: wrap;
 }
 
-.content .left img {
-    width: 350px;
+.content1 .left1 img {
+    width: 250px;
     margin: 10px;
 }
 
-.content .right {
+.content1 .right1 {
     flex: 2;
     padding: 20px;
 }
 
-.content .right h2 {
+.content1 .right1 h2 {
     color: #0EA781;
     font-size: 1.5em;
     margin-top: 0;
 }
 
-.content .right p {
+.content1 .right1 p {
     color: #666;
     margin: 10px 0;
 }
 
-.content .right .info {
+.content1 .right1 .info1 {
     margin: 20px 0;
 }
 
-.content .right .info h3 {
+.content1 .right1 .info1 h3 {
     color: #000000;
     font-size: 1.2em;
     margin: 10px 0;
 }
 
-.content .right .info p {
+.content1 .right1 .info1 p {
     color: #666;
     margin: 5px 0;
 }
 
-.content .right .info hr {
+.content1 .right1 .info1 hr {
     border: 0;
     border-top: 1px solid #0EA781;
     margin: 10px 0;
 }
 
-.content .right .button {
+.content1 .right1 .button1 {
     text-align: left;
     margin-top: 20px;
 }
 
-.content .right .button a {
+.content1 .right1 .button1 a {
     background-color: #ffc107;
     color: #000000;
     padding: 10px 20px;
@@ -100,7 +133,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    margin-bottom: -10px;
 }
 
 .content2 {
@@ -109,7 +141,6 @@
     background-color: #c0ffef;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 40px;
 }
 
 .content2 .right2 {
@@ -172,17 +203,84 @@
 }
 
 .content2 .left2 img {
-    width: 350px;
+    width: 250px;
     margin: 10px;
 }
 
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-    }
+.container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-    .content .left,
-    .content .right {
-        flex: 1 1 100%;
-    }
+.content3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c0ffef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content3 .left3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content3 .left3 img {
+    width: 250px;
+    margin: 10px;
+}
+
+.content3 .right3 {
+    flex: 2;
+    padding: 20px;
+}
+
+.content3 .right3 h2 {
+    color: #0EA781;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.content3 .right3 p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.content3 .right3 .info3 {
+    margin: 20px 0;
+}
+
+.content3 .right3 .info3 h3 {
+    color: #000000;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.content3 .right3 .info3 p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.content3 .right3 .info3 hr {
+    border: 0;
+    border-top: 1px solid #0EA781;
+    margin: 10px 0;
+}
+
+.content3 .right3 .button3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content3 .right3 .button3 a {
+    background-color: #ffc107;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
