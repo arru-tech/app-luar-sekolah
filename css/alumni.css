@@ -50,62 +50,38 @@
 }
 
 .carousel-container {
-    overflow: hidden;
-    width: 750px;
+    overflow: hidden; 
+    width: 100%;
 }
 
 .carousel-track {
     display: flex;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out; 
 }
 
 .alumni-card {
-    flex: 0 0 calc(33.33% - 10px);
-    margin-right: 10px;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    flex: 0 0 calc(33.33% - 20px); 
+    margin-right: 20px; 
 }
 
 .carousel-button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    background: linear-gradient(135deg, #4CAF50, #8BC34A); /* Gradasi warna hijau */
-    color: white;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.carousel-button:hover {
-    transform: scale(1.1); /* Efek hover untuk tombol */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
-}
-
-.carousel-button:active {
-    transform: scale(0.9); /* Efek klik untuk tombol */
-}
-
-.prev-btn,
-.next-btn {
-    z-index: 10; /* Pastikan tombol berada di atas kartu */
+    user-select: none;
 }
 
 .prev-btn[disabled],
 .next-btn[disabled] {
-    opacity: 0.5;
+    opacity: 0.5; 
     pointer-events: none;
 }
 
-/* Media Query: Menyesuaikan untuk layar kecil */
+
 @media (max-width: 768px) {
-    .alumni-card {
-        flex: 0 0 calc(100% - 20px); /* Satu kartu penuh pada layar kecil */
-        margin-right: 20px;
+    .alumni-row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .alumni-row-1 {
+        padding-top: 20px;
     }
 }
