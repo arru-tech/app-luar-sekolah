@@ -5,7 +5,7 @@
 <div class="container">
     <div class="content">
         <div class="left">
-            <img src="../img/Group_94.png"/>
+            <img src="./img/Group_94.png"/>
         </div>
 
         <div class="right">
@@ -66,7 +66,7 @@
         </div>
 
         <div class="left2">
-            <img src="../img/Group_95.png"/>
+            <img src="./img/Group_95.png"/>
         </div>
     </div>
 </div>
@@ -74,7 +74,7 @@
 <div class="container">
     <div class="content">
         <div class="left">
-            <img src="../img/Group_96.png" />
+            <img src="./img/Group_96.png" />
         </div>
 
         <div class="right">
