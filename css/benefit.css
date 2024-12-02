@@ -1,146 +1,99 @@
-.container {
-    margin: 100px auto auto auto;
-    padding: 10px;
-    display: flex;
-    box-sizing: border-box;
-    /* background-color: rgb(30, 255, 0); */
+.container-benefit {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: space-between; 
+  align-items: center; 
+  text-align: center; 
+}
 
-  }
-  
-  .content {
-    display: grid;
-    margin-bottom: 40px;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: 1fr 1fr;
-   
-  }
+.left {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
 
-  .community {
-    grid-row: 1fr;
-    grid-column: 1fr;
-    padding: 50px;
-    height: 50%;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  .benefits {
-    list-style-type: none;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-    line-height: 1.8;
-    grid-row: 1fr;
-    grid-column: 2fr;
-    width: 86%;
-    padding: 50px;
-    height: 50%;
+.left h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #000;
+}
 
-  }
-  
-  .benefits li {
-    display: flex;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: left;
-  }
+.left h1 span {
+  color: #00a651;
+}
 
-  
-  .benefits li::before {
-    margin-right: 10px;
-    color: #007bff;
-  }
-
-  .cek {
-    width: 5%;
-    height: 5%;
-    padding-right: 20px;
-  }
-
-  .learn-more {
-    text-decoration: none;
-    font-size: 1rem;
-    color: #555;
-    float: absolute;
-  }
-  
-  .learn-more span {
-    font-weight: bold;
-    color: #007bff;
-  }
-  
-  .images {
-    display: flex;
-    width: 97%;
-    height: 58%;
-    padding: 0px 20px;
-    align-self: stretch;
-    grid-row: 2fr;
-    grid-column: 1 / span 2;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 20px;
-    /* background-color: rgb(106, 0, 255); */
-  }
-  
-  .image-box-1 {
-    width: 251px;
-    height: 195px;
-    transform: rotate(-7.713deg);
-    border: 2px solid #000000;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-
-  .image-box-2 {
-    width: 251px;
-    height: 191px;
-    transform: rotate(11.747deg);
-    border: 2px solid #000000;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+.left p {
+  color: #888;
+  margin-top: 10px;
+}
 
 
-  .image-box-3 {
-    width: 251px;
-    height: 191px;
-    transform: rotate(-6.416deg);
-    border: 2px solid #000000;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto);
+  gap: 20px; 
+  justify-items: center; 
+}
+
+.right .image-container {
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.right .image-container img {
+  width: 100%;
+  height: auto; 
+  display: block;
+}
+
+.right .image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .image-container .overlay p {
+  color: #fff; 
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+}
+
+.right .image-container:hover .overlay {
+  opacity: 1; 
+}
+
+
+
+@media (max-width: 768px) {
+  .container-benefit {
+      flex-direction: column; 
+      align-items: center;
   }
   
-
-  .image-box-4 {
-    width: 251px;
-    height: 191px;
-    transform: rotate(15.44deg);
-    border: 2px solid #000000;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .right {
+      flex-direction: column;
+      align-items: center;
   }
-  .image-box-1 img,
-  .image-box-2 img,
-  .image-box-3 img,
-  .image-box-4 img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* Sesuaikan ukuran gambar tanpa merusak proporsi */
-      border-radius: 8px;
-  }
+}
