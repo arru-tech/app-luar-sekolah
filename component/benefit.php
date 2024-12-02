@@ -7,7 +7,7 @@
             <div class="image-container">
                 <img src="img/card-images.png" alt="Ruang Kolaborasi">
                 <div class="overlay">
-                <p>Ruang Kolaborasi</p>
+                <p>Ruang Kolaborasii</p>
                 </div>
             </div>
             <div class="image-container">
