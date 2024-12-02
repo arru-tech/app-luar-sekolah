@@ -53,13 +53,13 @@
     padding-bottom: 16px;
 }
 
-.hero-text-button button {
+.hero-text-button a {
     text-decoration: none;
     background-color: #0EA781;
     color: #F9FAFB;
     cursor: pointer;
     padding: 12px 20px;
-    border-radius: 16px;
+    border-radius: 10px;
     border: none;
     transition: all 0.3s ease;
     font-weight: 600;

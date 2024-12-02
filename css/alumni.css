@@ -13,7 +13,15 @@
 }
 
 .alumni-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
+    width: 80%;
+}
+
+.image-right {
+    opacity: 0;
 }
 
 .alumni-row-title {
@@ -30,14 +38,29 @@
 .alumni-row-2 {
     display: flex;
     flex-direction: row;
-    padding-top: 80px;
-    gap: 120px;
+    align-items: center;
+    padding-top: 50px;
+    gap: 32px;
 }
 
 .alumni-card p {
     font-size: 1.25rem;
     text-align: center;
     color: #111827;
+}
+
+.carousel-button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #D2D5DA;
+    border-radius: 50%;
+    background-color: white;
+    color: #6D7280;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
