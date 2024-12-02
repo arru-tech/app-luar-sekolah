@@ -3,14 +3,14 @@
     
 <nav class="navbar">
     <div class="logo">
-        <a href="#">
+        <a href="./index.php">
         <img src="./img/LS-logo-master.png" alt="Logo">
         </a>
     </div>
     <div class="menu">
         <ul>
-            <li><a href="#" class="nav-link home">Home</a></li>
-            <li><a href="#" class="nav-link komunitas">Komunitas</a></li>
+            <li><a href="https://luarsekolah.com/" class="nav-link home">Home</a></li>
+            <li><a href="./index.php" class="nav-link komunitas">Komunitas</a></li>
             <li>
                     <a href="#" class="nav-link program">Program <i class="fa-solid fa-angle-down fa-sm" style="vertical-align: middle; margin-left: 5px;"></i></a>
             

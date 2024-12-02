@@ -12,7 +12,7 @@
                 <p>berinteraksi dan bersikusi. #Sampaijadibisa</p>
             </div>
             <div class="hero-text-button">
-                <button type="button" href="">Gabung Komunitas</button>
+                <a href="https://t.me/+FHnsDdl9V7w2MWJl">Gabung Komunitas</a>
             </div>
             <hr>
             <div class="hero-text-element">

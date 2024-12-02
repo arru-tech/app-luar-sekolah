@@ -1,0 +1,128 @@
+.event-parent {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: 80px 0px;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.event-container-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.event-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-big {
+  margin-right: 32px;
+}
+
+.event-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#card-margin {
+ margin-top: 0;   
+}
+
+#card-margin-2 {
+  margin-top: 32px;
+}
+
+.card {
+    margin-top: 60px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(14, 167, 129, 0.1);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+.card-big {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(14, 167, 129, 0.1);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-date {
+    color: #7a7a7a;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-date span {
+    padding-left: 5px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #111827;
+  }
+  
+  .card-link {
+    color: #1BC89D;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .card-content .event-text p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #4B5563;
+  }
+
+.event-container p {
+  color: 111827;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+
+#no-padding {
+    padding: none;
+}
+.card-content .card-date span {
+    padding-right: 8px;
+}
+.card-content .card-date img {
+    padding: 0px 8px;
+}

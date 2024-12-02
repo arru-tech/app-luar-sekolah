@@ -30,7 +30,7 @@
             </div>
 
             <div class="button">
-                <a href="#">Gabung sekarang</a>
+                <a href="https://t.me/+FHnsDdl9V7w2MWJl">Gabung sekarang</a>
             </div>
 
         </div>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="button2">
-                <a href="#">Gabung sekarang</a>
+                <a href="https://t.me/+FHnsDdl9V7w2MWJl">Gabung sekarang</a>
             </div>
         </div>
 
@@ -94,7 +94,7 @@
             </div>
 
             <div class="button">
-                <a href="#">Gabung sekarang</a>
+                <a href="https://t.me/+FHnsDdl9V7w2MWJl">Gabung sekarang</a>
             </div>
         </div>
     </div>

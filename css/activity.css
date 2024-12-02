@@ -52,12 +52,12 @@
     text-align: center;
 }
 
-.activity-col-1 button {
+.activity-col-1 a {
     color: white;
     background-color: #0EA781;
     padding: 10px 20px;
     border-radius: 10px;
-    border: none;
+    text-decoration: none;
 }
 
 
