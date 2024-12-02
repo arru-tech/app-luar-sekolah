@@ -73,7 +73,7 @@
     padding-bottom: 16px;
 }
 
-.contact-button button {
+.contact-button a {
     text-decoration: none;
     background-color: #FFCC00;
     color: #111827;

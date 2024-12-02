@@ -7,7 +7,7 @@
             <p>Komunikasikan dulu dengan admin, bisa jadi solusi!</p>
         </div>
         <div class="contact-button">
-            <button type="button" href="">Klik untuk tanya lebih lanjut</button>
+            <a href="https://api.whatsapp.com/send?phone=628112021444&text=Halo%20Luarsekolah">Klik untuk tanya lebih lanjut</a>
         </div>
     </div>
 
@@ -16,7 +16,7 @@
             <p>Hi, kami siap membantu jika Anda mengalami kendala!</p>
         </div>
         <div class="whatsapp-logo">
-            <a href="">
+            <a href="https://api.whatsapp.com/send?phone=628112021444&text=Halo%20Luarsekolah">
                 <img src="./img/whatsapp-logo.png" alt="Whatsapp">
             </a>
         </div>
