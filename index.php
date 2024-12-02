@@ -17,7 +17,7 @@
 <body>
     <?php include './component/navbar.php'; ?>
     <?php include './component/hero.php'; ?>
-    <!-- <?php include './component/benefit.php'; ?> -->
+    <?php include './component/benefit.php'; ?>
     <?php include './component/alumni.php'; ?>
     <?php include './component/class.php'; ?>
     <?php include './component/activity.php'; ?>
