@@ -1,0 +1,81 @@
+.advantage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.advantage-left, .advantage-right {
+    flex: 1;
+}
+
+.advantage-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #111827;
+    line-height: 1;
+}
+
+#text-advantage {
+    color: #0EA781;
+    padding: 16px 0px;
+}
+
+.advantage-right {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    overflow: hidden;
+}
+
+.advantage-row-1, .advantage-row-2, .advantage-row-3, .advantage-row-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.advantage-right div img {
+    width: 50%;
+    height: auto;
+}
+
+/* Making cropped image */
+.advantage-row-2 img, .advantage-row-4 img {
+    transform: translateX(20%);
+}
+
+.advantage-row-1 {
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+}
+
+.advantage-row-1 img {
+    height: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.advantage-row-4 {
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.advantage-row-4 img {
+    height: 100px;
+    width: 100%;
+    height: auto;
+}
+
+
+
