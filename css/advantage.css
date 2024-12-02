@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    margin: 80px 0px;
 }
 
 .advantage-left, .advantage-right {
@@ -26,9 +27,14 @@
 
 #text-advantage {
     color: #0EA781;
-    padding: 16px 0px;
+    padding: 20px 0px;
 }
 
+.advantage-text {
+    text-align: center;
+    font-size: 20px;
+    color: #374151;
+}
 .advantage-right {
     display: flex;
     flex-direction: column;
