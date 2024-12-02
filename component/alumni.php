@@ -8,7 +8,7 @@
                 <div class="alumni-row-title">
                     <p>Simak cerita sukses alumni</p>
                 </div>
-                <div class="alumni-row-text" >
+                <div class="alumni-row-text">
                     <p>Inspirasi Nyata dari Mereka yang Telah Berhasil Berkembang Bersama Luar Sekolah</p>
                 </div>
             </div>
@@ -17,19 +17,28 @@
             </div>
         </div>
         <div class="alumni-row-2">
-            <a href="" class="carousel-button">&lt;
-            </a>
-            <div class="alumni-card">
-                <img src="./img/card-video.png">
+            <a href="javascript:void(0);" class="carousel-button prev-btn">&lt;</a>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="alumni-card">
+                        <img src="./img/card-video.png" alt="Card 1">
+                    </div>
+                    <div class="alumni-card">
+                        <img src="./img/card-video.png" alt="Card 2">
+                    </div>
+                    <div class="alumni-card">
+                        <img src="./img/card-video.png" alt="Card 3">
+                    </div>
+                    <div class="alumni-card">
+                        <img src="./img/card-video.png" alt="Card 4">
+                    </div>
+                    <div class="alumni-card">
+                        <img src="./img/card-video.png" alt="Card 5">
+                    </div>
+                </div>
             </div>
-            <div class="alumni-card">
-                <img src="./img/card-video.png">
-            </div>
-            <div class="alumni-card">
-                <img src="./img/card-video.png">
-            </div>
-            <a href="" class="carousel-button">&gt;
-            </a>
+            <a href="javascript:void(0);" class="carousel-button next-btn">&gt;</a>
         </div>
     </div>
 </section>
+<script src="js/test.js"></script>
