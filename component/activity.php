@@ -2,7 +2,7 @@
     <div class="activity-col">
         <div class="activity-col-1">
             <h3>Aktivitas Terbaru</h3>
-            <p>Aktifitas Seru untuk Belajar, Berbagi, dan Membangun Kolaborasi dalam Satu Wadah</p>
+            <p>Aktifitas Seru untuk Belajar, Berbagi, dan <br> Membangun Kolaborasi dalam Satu Wadah</p>
             <button>Lihat Berita Lainnya</button>
         </div>
         <div class="activity-col-2">
