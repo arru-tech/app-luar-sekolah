@@ -111,6 +111,11 @@
     color: #1BC89D;
     text-decoration: none;
     font-weight: bold;
+    transform: 0.2 ease;
+  }
+  
+  .card-link:hover {
+    filter: brightness(0.9);
   }
 
 .event-container p {

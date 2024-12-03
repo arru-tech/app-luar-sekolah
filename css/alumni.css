@@ -63,10 +63,15 @@
     /* flex: 0 0 calc(33.33% - 10px);  */
     margin-right: 10px;
     padding: 10px; 
+<<<<<<< HEAD
+    border-radius: 8px; 
+    background-color: none;
+=======
     justify-content: center;
     justify-items: center;
     /* border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+>>>>>>> e69f8c7a6bbaf0dcc40a7ca4b7519910f9627045
 }
 
 .carousel-button {
@@ -74,19 +79,20 @@
     height: 50px;
     border-radius: 50%;
     border: none;
-    background:#c0ffef ;
-    color: white;
+    background: #CCFADD;
+    color: black;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
 }
 
 .carousel-button:hover {
     transform: scale(1.1); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .carousel-button:active {
