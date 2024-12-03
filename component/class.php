@@ -5,13 +5,13 @@
     <p>Jadilah Bagian dari Perubahan, Berkontribusi dalam Pengembangan Pendidikan dan Kegiatan Komunitas</p>
 
     <div class="tabs">
-        <div class="tab active" data-target="sobat-ls">Komunitas Sobat LS</div>
-        <div class="tab" data-target="alumni-belajar">Komunitas Alumni Belajar Bekerja</div>
-        <div class="tab" data-target="alumni-prakerja">Komunitas Alumni Prakerja dan ISW</div>
+        <div class="tab active" data-target="sobat-ls" style="cursor: pointer; padding: 10px;">Komunitas Sobat LS</div>
+        <div class="tab" data-target="alumni-belajar" style="cursor: pointer; padding: 10px;">Komunitas Alumni Belajar Bekerja</div>
+        <div class="tab" data-target="alumni-prakerja" style="cursor: pointer; padding: 10px;">Komunitas Alumni Prakerja dan ISW</div>
     </div>
 
     <!-- Konten Tab -->
-    <div id="sobat-ls" class="content active">
+    <div id="sobat-ls" class="content active" style="opacity: 1; transition: opacity 0.5s ease-in-out;">
         <div class="container1">
             <div class="content1">
                 <div class="left1">
@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <div id="alumni-belajar" class="content">
+    <div id="alumni-belajar" class="content" style="opacity: 0; transition: opacity 0.5s ease-in-out; display: none;">
         <div class="container2">
             <div class="content2">
                 <div class="right2">
@@ -80,7 +80,7 @@
         </div>
     </div>
 
-    <div id="alumni-prakerja" class="content">
+    <div id="alumni-prakerja" class="content" style="opacity: 0; transition: opacity 0.5s ease-in-out; display: none;">
         <div class="container3">
             <div class="content3">
                 <div class="left3">
@@ -112,3 +112,4 @@
 </div>
 
 <script src="./js/class.js"></script>
+<script src="./js/class_tab.js"></script>
