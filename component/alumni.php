@@ -21,19 +21,22 @@
             <div class="carousel-container">
                 <div class="carousel-track">
                     <div class="alumni-card">
-                        <img src="./img/card-video.png" alt="Card 1">
+                        <img src="./img/card-video-1.png" alt="Card 1">
                     </div>
                     <div class="alumni-card">
-                        <img src="./img/card-video.png" alt="Card 2">
+                        <img src="./img/card-video-2.png" alt="Card 2">
                     </div>
                     <div class="alumni-card">
-                        <img src="./img/card-video.png" alt="Card 3">
+                        <img src="./img/card-video-3.png" alt="Card 3">
                     </div>
                     <div class="alumni-card">
-                        <img src="./img/card-video.png" alt="Card 4">
+                        <img src="./img/card-video-1.png" alt="Card 4">
                     </div>
                     <div class="alumni-card">
-                        <img src="./img/card-video.png" alt="Card 5">
+                        <img src="./img/card-video-2.png" alt="Card 5">
+                    </div>
+                    <div class="alumni-card">
+                        <img src="./img/card-video-3.png" alt="Card 6">
                     </div>
                 </div>
             </div>
