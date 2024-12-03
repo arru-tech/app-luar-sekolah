@@ -255,15 +255,15 @@
   }
 
   .group-icon {
-    position: absolute; /* Ensure it can be placed within its parent container */
-    bottom: 0; /* Align to the bottom */
-    left: 0; /* Align to the left */
-    max-width: 300px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
-    z-index: 2; /* Ensure it appears above background elements */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 300px;
+    height: auto;
+    z-index: 2;
 }
 .activity-container {
-    position: relative; /* Set relative positioning for the container */
+    position: relative;
 }
 
   
