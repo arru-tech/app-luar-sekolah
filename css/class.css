@@ -10,6 +10,7 @@
     font-size: 2em;
     margin: 0;
     color: #000000;
+    padding-bottom: 16px;
 }
 
 .header p {
@@ -85,6 +86,11 @@
 .content .right .button {
     text-align: left;
     margin-top: 20px;
+}
+
+.button a:hover, .button2 a:hover {
+    transform: 0.3s ease;
+    filter: brightness(0.9);
 }
 
 .content .right .button a {

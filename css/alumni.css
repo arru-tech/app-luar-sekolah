@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
+    margin: 120px 0px;
 }
 
 .alumni-parent {
@@ -25,9 +26,10 @@
 }
 
 .alumni-row-title {
-    color: #111827;
+    color: #0EA781;
     font-weight: bold;
     font-size: 2.5rem;
+    padding-bottom: 16px;
 }
 
 .alumni-row-text {
@@ -49,26 +51,64 @@
     color: #111827;
 }
 
+.carousel-container {
+    overflow: hidden;
+    width: 1120px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.alumni-card {
+    /* flex: 0 0 calc(33.33% - 10px);  */
+    margin-right: 10px;
+    padding: 10px; 
+    border-radius: 8px; 
+    background-color: none;
+}
+
 .carousel-button {
-    width: 48px;
-    height: 48px;
-    border: 1px solid #D2D5DA;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: white;
-    color: #6D7280;
-    font-size: 25px;
+    border: none;
+    background: #CCFADD;
+    color: black;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
     text-decoration: none;
 }
 
+.carousel-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.carousel-button:active {
+    transform: scale(0.9); 
+}
+
+.prev-btn,
+.next-btn {
+    z-index: 10; 
+}
+
+.prev-btn[disabled],
+.next-btn[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
 @media (max-width: 768px) {
-    .alumni-row-2 {
-        display: flex;
-        flex-direction: column;
-    }
-    .alumni-row-1 {
-        padding-top: 20px;
+    .alumni-card {
+        flex: 0 0 calc(100% - 20px); 
+        margin-right: 20px;
     }
 }

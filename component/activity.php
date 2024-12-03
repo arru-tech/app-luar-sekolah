@@ -5,6 +5,7 @@
             <p>Aktifitas Seru untuk Belajar, Berbagi, dan <br> Membangun Kolaborasi dalam Satu Wadah</p>
             <a href="./news.php">Lihat Berita Lainnya</a>
         </div>
+        <img class="group-icon" alt="" src="img/naonweh.png">
         <div class="activity-col-2">
             <div class="partOne">
                 <div class="card">

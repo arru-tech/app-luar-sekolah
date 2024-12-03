@@ -3,11 +3,11 @@
         <div class="hero-part-one">
             <div class="hero-text-title">
                 <p>Komunitas Magang</p>
-                <p>Luar Sekolah</p>
+                <p>Luarsekolah</p>
             </div>
             <div class="hero-text-desc">
                 <p>
-                Tempat bagi sobat LS untuk mendalami LuarSekolah, 
+                Tempat bagi sobat LS untuk mendalami Luarsekolah, 
                 </p>
                 <p>berinteraksi dan bersikusi. #Sampaijadibisa</p>
             </div>

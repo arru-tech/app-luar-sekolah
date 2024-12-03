@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 50vh;
     background-color: #F9FAFB;
 }
 
@@ -69,7 +69,8 @@
 }
 
 .footer-content-1 img {
-    max-width: 120px;
+    max-width: 80px;
+    height: auto;
 }
 
 .footer-row-2 {
@@ -77,4 +78,8 @@
     background-color: #000000;
     margin: 24px 0px;
     width: 100%;
+}
+
+.footer-inside5 a {
+    text-decoration: none;
 }

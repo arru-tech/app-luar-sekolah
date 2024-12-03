@@ -2,7 +2,7 @@
     <div class="footer-col">
         <div class="footer-row-1">
             <div class="footer-content-1">
-                <img src="./img/LS-logo-2nd-master.png" alt="">
+                <img src="./img/LS-logo-master.png" alt="">
                 <p>Luar Sekolah adalah platform untuk belajar dan mengajar pelajaran nonformal dan formal, menyediakan kelas dalam format online dan offline</p>
             </div>
             <div class="footer-content-2">
