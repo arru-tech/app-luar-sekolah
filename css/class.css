@@ -118,7 +118,8 @@ h1 {
 
 .content1 .right1 .button1 {
     text-align: left;
-    margin-top: 20px;
+    margin-top: -10px;
+    display: inline-block; 
 }
 
 .content1 .right1 .button1 a {
@@ -128,6 +129,20 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.content1 .right1 .button1 a:hover {
+    background-color: #e0a800;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content1 .right1 .button1 a:active {
+    background-color: #c69500;
+    transform: scale(0.95);
 }
 
 .container2 {
@@ -183,7 +198,8 @@ h1 {
 
 .content2 .right2 .button2 {
     text-align: left;
-    margin-top: 20px;
+    margin-top: -10px;
+    display: inline-block; 
 }
 
 .content2 .right2 .button2 a {
@@ -193,6 +209,20 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.content2 .right2 .button2 a:hover {
+    background-color: #e0a800;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content2 .right2 .button2 a:active {
+    background-color: #c69500;
+    transform: scale(0.95);
 }
 
 .content2 .left2 {
@@ -274,7 +304,8 @@ h1 {
 
 .content3 .right3 .button3 {
     text-align: left;
-    margin-top: 20px;
+    margin-top: -10px;
+    display: inline-block; 
 }
 
 .content3 .right3 .button3 a {
@@ -284,4 +315,18 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.content3 .right3 .button3 a:hover {
+    background-color: #e0a800;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content3 .right3 .button3 a:active {
+    background-color: #c69500;
+    transform: scale(0.95);
 }
