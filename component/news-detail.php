@@ -13,6 +13,7 @@
                                 <img src="./img/clock.png" alt="" id="no-padding">
                                 <span>Sabtu, 30/11/2024</span>
                                 <span>|</span>
+                                <!-- need to update -->
                                 <img src="./img/share-button.png" alt="">
                                 <img src="./img/facebook-button.png" alt="">
                                 <img src="./img/whatsapp-button.png" alt="">
@@ -53,7 +54,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="#" class="card-link">Read more &#62;</a>
+                            <a href="./news-detail.php" class="card-link">Read more &./news-detail.php62;</a>
                         </div>
                     </div>
                     <div class="card" id="card-margin-2">
@@ -68,7 +69,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="#" class="card-link">Read more &#62;</a>
+                            <a href="./news-detail.php" class="card-link">Read more &./news-detail.php62;</a>
                         </div>
                     </div>
                     <div class="card" id="card-margin-2">
@@ -83,7 +84,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="#" class="card-link">Read more &#62;</a>
+                            <a href="./news-detail.php" class="card-link">Read more &./news-detail.php62;</a>
                         </div>
                     </div>
                     <div class="card" id="card-margin-2">
@@ -98,7 +99,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="#" class="card-link">Read more &#62;</a>
+                            <a href="./news-detail.php" class="card-link">Read more &./news-detail.php62;</a>
                         </div>
                     </div>
                 </div>
