@@ -16,7 +16,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="#" class="card-link">Read more &#62;</a>
+                            <a href="./news-detail.php" class="card-link">Read more &#62;</a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="#" class="card-link">Read more &#62;</a>
+                            <a href="./news-detail.php" class="card-link">Read more &#62;</a>
                         </div>
                     </div>
                     <div class="card" id="card-margin-2">
@@ -48,7 +48,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="#" class="card-link">Read more &#62;</a>
+                            <a href="./news-detail.php" class="card-link">Read more &#62;</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <h3 class="card-title">
                         Workshop Web Dev Batch 51
                     </h3>
-                    <a href="#" class="card-link">Read more &#62;</a>
+                    <a href="./news-detail.php" class="card-link">Read more &#62;</a>
                 </div>
             </div>
             <div class="card">
@@ -84,7 +84,7 @@
                     <h3 class="card-title">
                         Workshop Web Dev Batch 51
                     </h3>
-                    <a href="#" class="card-link">Read more &#62;</a>
+                    <a href="./news-detail.php" class="card-link">Read more &#62;</a>
                 </div>
             </div>
             <div class="card">
@@ -99,7 +99,7 @@
                     <h3 class="card-title">
                         Workshop Web Dev Batch 51
                     </h3>
-                    <a href="#" class="card-link">Read more &#62;</a>
+                    <a href="./news-detail.php" class="card-link">Read more &#62;</a>
                 </div>
             </div>
             <div class="card">
@@ -114,7 +114,7 @@
                     <h3 class="card-title">
                         Workshop Web Dev Batch 51
                     </h3>
-                    <a href="#" class="card-link">Read more &#62;</a>
+                    <a href="./news-detail.php" class="card-link">Read more &#62;</a>
                 </div>
             </div>
         </div>
