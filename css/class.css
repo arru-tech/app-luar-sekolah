@@ -87,6 +87,11 @@
     margin-top: 20px;
 }
 
+.button a:hover, .button2 a:hover {
+    transform: 0.3s ease;
+    filter: brightness(0.9);
+}
+
 .content .right .button a {
     background-color: #ffc107;
     color: #000000;

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 50vh;
     background-color: #F9FAFB;
 }
 
@@ -77,4 +77,8 @@
     background-color: #000000;
     margin: 24px 0px;
     width: 100%;
+}
+
+.footer-inside5 a {
+    text-decoration: none;
 }

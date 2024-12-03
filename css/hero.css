@@ -64,6 +64,7 @@
     transition: all 0.3s ease;
     font-weight: 600;
     font-size: 14px;
+    transform: 0.3s ease;
 }
 
 .hero-part-one hr{
@@ -72,20 +73,9 @@
     border-top: 0.1px solid #3FCA9A;
 }
 
-.hero-text-button button:hover {
-    
-    background-color: #0c8d6d;
+.hero-text-button a:hover {
+    filter: brightness(0.9);
 }
-
-/* .hero-text-button {
-    background-color: #FFCC00;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-    padding: 10px 25px;
-} */
 
 .hero-text-element {
     display: flex;

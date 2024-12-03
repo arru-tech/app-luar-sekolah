@@ -84,11 +84,11 @@
     transition: all 0.3s ease;
     font-weight: 600;
     font-size: 14px;
+    transition: 0.3s ease;
 }
 
-.contact-button button:hover {
-    transition: 0.3s ease;
-    background-color: rgb(226, 181, 2);
+.contact-button a:hover {
+    filter: brightness(0.9);
 }
 
 @media (max-width: 768px) {
