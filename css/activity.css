@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     height: auto;
+    margin-top: 80px;
     padding: 40px 0px;
+    background: rgb(14,167,129);
+background: linear-gradient(50deg, rgba(14,167,129,0.14842433555453427) 0%, rgba(255,255,255,1) 39%);
 }
 
 .activity-col {
@@ -112,4 +115,21 @@
     text-decoration: none;
     font-weight: bold;
   }
+
+  .group-icon {
+    width: 17.08%;
+    position: absolute;
+    margin: 0 !important;
+    height: 40%;
+    top: 654%;
+    right: 82.45%;
+    bottom: 0.41%;
+    left: 0.48%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    /* opacity: 100; */
+    z-index: 2;
+}
   
