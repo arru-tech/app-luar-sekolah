@@ -9,6 +9,10 @@ body {
 .container {
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -22,6 +26,8 @@ h1 {
     margin: 15px 10px 15px 10px;
     border: 1px solid #00b894;
     border-radius: 10px;
+    align-items: center;
+    width: auto;
 }
 
 .tab {
