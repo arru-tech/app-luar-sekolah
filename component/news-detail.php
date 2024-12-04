@@ -16,13 +16,13 @@
                                 <!-- need to update -->
                                 <img src="./img/share-button.png" alt="">
                                 <a href="https://www.facebook.com/luarsekolahofficial/" target="_blank">
-                                    <img src="../img/facebook-button.png" alt="Facebook">
+                                    <img src="./img/facebook-button.png" alt="Facebook">
                                 </a>
                                 <a href="https://api.whatsapp.com/send?phone=628112021444&text=Halo%20Luarsekolah" target="_blank">
-                                    <img src="../img/whatsapp-button.png" alt="WhatsApp">
+                                    <img src="./img/whatsapp-button.png" alt="WhatsApp">
                                 </a>
                                 <a href="https://www.instagram.com/luarsekolah/" target="_blank">
-                                    <img src="../img/instagram-button.png" alt="Instagram">
+                                    <img src="./img/instagram-button.png" alt="Instagram">
                                 </a>
                             </div>
                             <h3 class="card-title">
@@ -60,7 +60,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 51
                             </h3>
-                            <a href="../news/news-detail1.php" class="card-link">Read more</a>
+                            <a href="./news/news-detail1.php" class="card-link">Read more</a>
                         </div>
                     </div>
                     <div class="card" id="card-margin-2">
@@ -75,7 +75,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 52
                             </h3>
-                            <a href="../news/news-detail2.php" class="card-link">Read more</a>
+                            <a href="./news/news-detail2.php" class="card-link">Read more</a>
                         </div>
                     </div>
                     <div class="card" id="card-margin-2">
@@ -90,7 +90,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 53
                             </h3>
-                            <a href="../news/news-detail3.php" class="card-link">Read more</a>
+                            <a href="./news/news-detail3.php" class="card-link">Read more</a>
                         </div>
                     </div>
                     <div class="card" id="card-margin-2">
@@ -105,7 +105,7 @@
                             <h3 class="card-title">
                                 Workshop Web Dev Batch 54
                             </h3>
-                            <a href="../news/news-detail4.php" class="card-link">Read more</a>
+                            <a href="./news/news-detail4.php" class="card-link">Read more</a>
                         </div>
                     </div>
                 </div>
