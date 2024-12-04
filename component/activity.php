@@ -10,7 +10,7 @@
             <div class="partOne">
                 <div class="card">
                     <div class="card-image">
-                        <img src="./img/card-images.png" alt="Webinar">
+                        <img src="./img/news_img1.png" alt="Webinar">
                     </div>
                     <div class="card-content">
                         <div class="card-date">
@@ -20,12 +20,12 @@
                         <h3 class="card-title">
                             Webinar Interaktif: Membahas topik-topik terkini bersama pembicara ahli.
                         </h3>
-                        <a href="./news-detail.php" class="card-link">Read more &#62;</a>
+                        <a href="./news/news-detail1.php" class="card-link">Read more &#62;</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <img src="./img/card-images.png" alt="Webinar">
+                        <img src="./img/news_img2.png" alt="Webinar">
                     </div>
                     <div class="card-content">
                         <div class="card-date">
@@ -35,14 +35,14 @@
                         <h3 class="card-title">
                             Webinar Interaktif: Membahas topik-topik terkini bersama pembicara ahli.
                         </h3>
-                        <a href="./news-detail.php" class="card-link">Read more &#62;</a>
+                        <a href="./news/news-detail2.php" class="card-link">Read more &#62;</a>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="card">
                     <div class="card-image">
-                        <img src="./img/card-images.png" alt="Webinar">
+                        <img src="./img/news_img3.png" alt="Webinar">
                     </div>
                     <div class="card-content">
                         <div class="card-date">
@@ -52,12 +52,12 @@
                         <h3 class="card-title">
                             Webinar Interaktif: Membahas topik-topik terkini bersama pembicara ahli.
                         </h3>
-                        <a href="./news-detail.php" class="card-link">Read more &#62;</a>
+                        <a href="./news/news-detail3.php" class="card-link">Read more &#62;</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <img src="./img/card-images.png" alt="Webinar">
+                        <img src="./img/news_img4.png" alt="Webinar">
                     </div>
                     <div class="card-content">
                         <div class="card-date">
@@ -67,7 +67,7 @@
                         <h3 class="card-title">
                             Webinar Interaktif: Membahas topik-topik terkini bersama pembicara ahli.
                         </h3>
-                        <a href="./news-detail.php" class="card-link">Read more &#62;</a>
+                        <a href="./news/news-detail4.php" class="card-link">Read more &#62;</a>
                     </div>
                 </div>
             </div>
