@@ -9,7 +9,7 @@
                     <p>Simak cerita sukses alumni</p>
                 </div>
                 <div class="alumni-row-text">
-                    <p>Inspirasi Nyata dari Mereka yang Telah Berhasil Berkembang Bersama Luar Sekolah</p>
+                    <p>Inspirasi Nyata dari Mereka yang Telah Berhasil Berkembang Bersama Luarsekolah</p>
                 </div>
             </div>
             <div class="image-right">

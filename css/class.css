@@ -129,8 +129,8 @@ h1 {
 }
 
 .content1 .right1 .button1 a {
-    background-color: #ffc107;
-    color: #000000;
+    background-color: #0EA781;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -209,8 +209,8 @@ h1 {
 }
 
 .content2 .right2 .button2 a {
-    background-color: #ffc107;
-    color: #000000;
+    background-color: #0EA781;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -220,7 +220,7 @@ h1 {
 }
 
 .content2 .right2 .button2 a:hover {
-    background-color: #e0a800;
+    background-color: #0EA781;
     color: #ffffff;
     transform: scale(1.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -315,8 +315,8 @@ h1 {
 }
 
 .content3 .right3 .button3 a {
-    background-color: #ffc107;
-    color: #000000;
+    background-color: #0EA781;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;

@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="./css/class.css">
 
 <div class="container">
-    <h1>Mari Bergabung Bersama Komunitas Luar Sekolah</h1>
+    <h1>Mari Bergabung Bersama Komunitas Luarsekolah</h1>
     <p>Jadilah Bagian dari Perubahan, Berkontribusi dalam Pengembangan Pendidikan dan Kegiatan Komunitas</p>
 
     <div class="tabs">
-        <div class="tab active" data-target="sobat-ls" style="cursor: pointer; padding: 10px;">Komunitas Sobat LS</div>
+        <div class="tab active" data-target="sobat-ls" style="cursor: pointer; padding: 10px;">Komunitas Sobat Luarsekolah</div>
         <div class="tab" data-target="alumni-belajar" style="cursor: pointer; padding: 10px;">Komunitas Alumni Belajar Bekerja</div>
         <div class="tab" data-target="alumni-prakerja" style="cursor: pointer; padding: 10px;">Komunitas Alumni Prakerja dan ISW</div>
     </div>
@@ -18,7 +18,7 @@
                     <img src="./img/Group_94.png" />
                 </div>
                 <div class="right1">
-                    <h2>Komunitas Sobat LS</h2>
+                    <h2>Komunitas Sobat Luarsekolah</h2>
                     <p>Komunitas ini hadir untuk siapapun kamu yang bergabung dan dibimbing</p>
                     <div class="info1">
                         <h3>Informasi mengenai kelas Luarsekolah, Prakerja dan ISW</h3>
@@ -92,13 +92,13 @@
                     <div class="info3">
                         <h3>Komunitas ini hadir untuk kamu yang telah menyelesaikan pelatihan prakerja dan event ISW
                         </h3>
-                        <p>Belajar dan Berkembang Bersama: Kolaborasi Luar Sekolah, Prakerja, dan ISW untuk
+                        <p>Belajar dan Berkembang Bersama: Kolaborasi Luarsekolah, Prakerja, dan ISW untuk
                             Meningkatkan Keterampilan dan Daya Saing Profesional</p>
                         <hr />
                     </div>
                     <div class="info3">
                         <h3>Informasi umum tentang event LS atau DPxPrakerja</h3>
-                        <p>Belajar dan Berkembang Bersama: Kolaborasi Luar Sekolah, Prakerja, dan ISW untuk
+                        <p>Belajar dan Berkembang Bersama: Kolaborasi Luarsekolah, Prakerja, dan ISW untuk
                             Meningkatkan Keterampilan dan Daya Saing Profesional</p>
                         <hr />
                     </div>

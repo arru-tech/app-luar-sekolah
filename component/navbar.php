@@ -24,8 +24,8 @@
     </div>
     
     <div class="buttons">
-        <a href="#" class="masuk">Masuk</a>
-        <a href="#" class="daftar-btn">Daftar</a>
+        <a href="https://luarsekolah.com/masuk" class="masuk">Masuk</a>
+        <a href="https://luarsekolah.com/daftar" class="daftar-btn">Daftar</a>
     </div>
     
     <div class="hamburger" onclick="toggleMenu()">
